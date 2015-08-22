@@ -34,4 +34,28 @@ dependencies {
     compile 'com.netcosports.recyclergesture:library:0.2.0@aar'
     compile project(':library')
     compile 'fr.tvbarthel.cheerleader:library:0.1.1'
+    compile('com.laimiux:android-youtube-listview:0.1.1@aar') {
+        transitive = true;
+        exclude module: 'httpclient' //by artifact name
+        exclude group: 'org.apache.httpcomponents' //by group
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient' //by both name and group
+    }
+    compile ('com.jakewharton:butterknife:6.0.0') {
+        exclude module: 'httpclient' //by artifact name
+        exclude group: 'org.apache.httpcomponents' //by group
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient' //by both name and group
+    }
+
+    compile('oauth.signpost:signpost-commonshttp4:1.2.1.2') {
+        exclude module: 'commons-logging'
+        exclude module: 'httpcore'
+        exclude module: 'httpclient'
+    }
+    compile('oauth.signpost:signpost-core:1.2.1.2') {
+        exclude module: 'commons-codec'
+    }
+
+
+
+
 }

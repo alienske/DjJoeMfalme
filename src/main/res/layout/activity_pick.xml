@@ -58,58 +58,11 @@
                 <!--android:textColor="@color/pick_activity_section_content_text"-->
                 <!--android:textSize="15sp" />-->
 
-            <View
-                android:id="@+id/activity_pick_puce_sample"
-                android:layout_width="@dimen/puce_size"
-                android:layout_height="@dimen/puce_size"
-                android:layout_alignTop="@+id/activity_pick_section_try_it"
-                android:layout_marginLeft="4dp"
-                android:background="@drawable/puce" />
-
-            <TextView
-                android:id="@+id/activity_pick_section_try_it"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/activity_pick_try_it_section"
-                android:textColor="@color/pick_activity_section_text"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/activity_pick_extra_hint"
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_below="@+id/activity_pick_section_try_it"
-                android:layout_marginBottom="-20dp"
-                android:layout_marginLeft="35dp"
-                android:text="@string/activity_pick_search_hint"
-                android:textColor="@color/pick_activity_extra_hint_text" />
-
-            <fr.tvbarthel.cheerleader.sampleapp.ui.ExtraHintEditText
-                android:id="@+id/activity_pick_artist_edit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/activity_pick_extra_hint"
-                android:layout_marginLeft="35dp"
-                android:layout_toLeftOf="@+id/activity_pick_search_btn"
-                android:hint="@string/activity_pick_search_hint"
-                android:imeOptions="actionSearch"
-                android:inputType="textPersonName"
-                android:padding="@dimen/activity_vertical_margin"
-                android:textColor="@color/pick_activity_artist_edit"
-                android:textColorHint="@color/pick_activity_artist_edit_hint" />
-
             <TextView
                 android:id="@+id/activity_pick_search_btn"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/activity_pick_artist_edit"
-                android:layout_alignParentRight="true"
                 android:layout_gravity="bottom|end"
-                android:layout_marginRight="@dimen/default_padding"
                 android:background="@drawable/selectable_background_red"
                 android:clickable="true"
                 android:gravity="center"
@@ -117,8 +70,29 @@
                 android:paddingLeft="@dimen/activity_vertical_margin"
                 android:paddingRight="@dimen/activity_vertical_margin"
                 android:paddingTop="@dimen/default_padding"
-                android:text="@string/activity_pick_try_it"
-                android:textColor="@color/pick_activity_search" />
+                android:text="@string/activity_pick_audio"
+                android:textColor="@color/pick_activity_search"
+                android:textSize="100px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="54dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:background="@drawable/selectable_background_red"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingBottom="@dimen/default_padding"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/default_padding"
+                android:text="@string/activity_pick_video"
+                android:textColor="@color/pick_activity_search"
+                android:textSize="100px"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
 
             <!--<View-->
                 <!--android:id="@+id/activity_pick_puce_links"-->

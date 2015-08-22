@@ -2,7 +2,7 @@
 <resources>
 
     <!-- general -->
-    <string name="app_name">Cheerleader</string>
+    <string name="app_name">Dj Joe Mfalme</string>
     <string name="id">id : %1$d</string>
     <string name="action_settings">Settings</string>
     <string name="duration">%1$d:%2$02d</string>
@@ -17,14 +17,15 @@
 
     <!-- activity pick !-->
     <string name="activity_pick_search_hint">Artist name</string>
-    <string name="activity_pick_try_it">Try it</string>
+    <string name="activity_pick_audio">Mixxes</string>
+    <string name="activity_pick_video">Videos</string>
 
     <!-- artist view !-->
     <string name="artist_view_track_count">%1$d Tracks</string>
 
     <!-- cheerleader banner !-->
     <string name="cheerleader_banner_title">@string/app_name</string>
-    <string name="cheerleader_banner_subtitle">Support your favorite artist</string>
+    <string name="cheerleader_banner_subtitle">Its Gotta Be Capital Mixmaster</string>
     <string name="activity_pick_project_section">Project</string>
     <string name="activity_pick_project">Cheerleader is an Android open source library based on RxJava and designed to easily support an artist in an Android application thanks to a SoundCloud account.</string>
     <string name="activity_pick_try_it_section">Sample</string>

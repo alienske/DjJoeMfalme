@@ -3,11 +3,11 @@
     <color name="grey">#c3c3c3</color>
     <color name="grey_dark">#606060</color>
     <color name="grey_darker">#424242</color>
-    <color name="red">#f61825</color>
-    <color name="red_light">#fff17f86</color>
-    <color name="red_translucent">#aaf61825</color>
-    <color name="red_dark">#c31119</color>
-    <color name="red_darker">#ff951018</color>
+    <color name="red">#ff0810f6</color>
+    <color name="red_light">#ff5e6ef1</color>
+    <color name="red_translucent">#aa3186f6</color>
+    <color name="red_dark">#ff090bc3</color>
+    <color name="red_darker">#ff030595</color>
     <color name="grey_light">#eeeeee</color>
 
     <color name="notification_title">#202020</color>

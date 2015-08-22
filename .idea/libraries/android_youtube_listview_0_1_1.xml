@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="android-youtube-listview-0.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.laimiux/android-youtube-listview/0.1.1/libs/YouTubeAndroidPlayerApi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.laimiux/android-youtube-listview/0.1.1/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.laimiux/android-youtube-listview/0.1.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
